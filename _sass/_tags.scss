@@ -1,0 +1,68 @@
+//border-radius mixin
+ @mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+ }
+// for tag cloud and archives
+.tag-cloud {
+  list-style: none;
+  padding: 0;
+
+  text-align: justify; 
+  font-size: 16px;
+ }
+
+// Tag extent
+// Rounded square, 
+%tag {
+	   display: inline-block;
+ 	   margin: 0 10px 4px 0;
+ 	   background-color: $java;		
+			color: $nero;
+			padding: 6px;
+			text-decoration:none;
+			@include border-radius(8px);
+	  }
+
+.tag {
+ 
+	a {
+	   @extend %tag;
+	  }
+	a:hover {
+		@extend %tag;
+		background-color: $daisy;		
+	  } 
+}
+
+
+//#archives {
+//  padding: 5px;
+//}
+.archive-group {
+  margin: 5px;
+
+	h3 {
+	@extend %tag;
+	background-color: $wheat;
+	margin-bottom:10px;
+        font-size:18px;
+	  }
+
+}
+.archive-item {
+  margin-left: 10px;
+
+	span {
+	  display:inline-block;
+	  margin-bottom:8px;
+          }
+
+}
+
+.post-tags {
+	@extend .tag;
+	font-size: 16px;
+}

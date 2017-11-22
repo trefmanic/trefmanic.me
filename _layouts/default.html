@@ -11,6 +11,16 @@
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/scripts/jquery.mousewheel.js"></script>
+    <!-- the jScrollPane script -->
+    <script type="text/javascript" src="/scripts/jquery.jscrollpane.min.js"></script>
+    <script type="text/javascript" id="sourcecode">
+      $(function()
+      {
+        $('.highlighter-rouge').jScrollPane();
+      });
+    </script>
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
@@ -27,8 +37,8 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
+           
+            <a href="{{ site.baseurl }}/about">Про автора</a>
           </nav>
         </header>
       </div>
@@ -37,7 +47,11 @@
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
-
+    {% if page.nav-display %}
+    <div role="main" class="container">
+      {% include nav-tags.html %}
+    </div>
+    {% endif %}
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">

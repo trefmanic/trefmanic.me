@@ -1,0 +1,11 @@
+
+<ul class="tag-cloud">
+{% for tag in site.tags %}
+  <span class="tag" style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70  }}%">
+    <a href="tags/#{{ tag | first | slugize }}">
+      {{ tag | first }}
+    </a>
+  </span>
+{% endfor %}
+</ul>
+

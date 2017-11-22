@@ -1,0 +1,25 @@
+.jspHorizontalBar,.jspVerticalBar,.jspTrack
+{
+	background: $dimgray;
+	height: 4px;
+}
+
+.jspDrag
+{
+	background:  $java;
+	height: 4px;
+}
+
+.jspTrack .jspActive,.jspTrack .jspHover,.jspDrag:hover
+{
+	background: $selection;
+}
+
+.jspVerticalBar>.jspDisabled,
+.jspVerticalBar>.jspDisabled:hover,
+.jspHorizontalBar>.jspDisabled,
+.jspHorizontalBar>.jspDisabled:hover
+{
+	background-color: transparent;
+}
+

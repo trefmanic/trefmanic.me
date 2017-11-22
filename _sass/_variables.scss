@@ -3,21 +3,35 @@
 // VARIABLES
 //
 
-// Colors
-$blue: #4183C4;
+//Zenburn colors
 
-// Grays
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
-$white: #fff;
+//background
+$gunmetal: #2E3436;
+//text
+$greynurse: #D3D7CF;
+//headers
+$wheat: #FFD7AF;
+//code background
+$nero: #1C1C1C;
+//highlights
+$daisy: #FCE94F;
+//links
+$java: #06989A;
+//critical
+$pink: #D7AFAF;
+$mypink: #D78787;
+//others
+$pavlova: #AFAF87;
+$earlsgreen: #C4A000;
+$dimgray: #767676;
+//highlights-hack
+//for Chrome
+$selection: rgba(252, 233, 79, 0.99);
 
-// Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+// PT Sans stack
+$ptsans: 'PT Sans', sans-serif;
+// Mono stack
+$monospace: 'PT Mono', monospace;
 
 // Mobile breakpoints
 @mixin mobile {
