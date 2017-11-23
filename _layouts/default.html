@@ -45,7 +45,31 @@
     </div>
 
     <div id="main" role="main" class="container">
-      {{ content }}
+      <!-- Тестирование типографских фильтров -->
+
+      {% capture hide %}
+        {% assign content = content | split: '<pre' %}
+
+        {% for parts in content %}
+
+          {% assign part = parts | split: '</pre>' %}
+          {% assign c = part.first %}
+          {% assign raw = part.last %}
+          <!-- Замена английских кавычек на ёлочки -->
+          {% assign raw = raw | replace: '“', '«'
+                | replace: '”', '»' %}
+
+          {% if part.size == 2 %}
+
+            {% capture output %}{{ output }}<pre{{ c }}</pre>{% endcapture %}
+
+          {% endif %}
+
+          {% capture output %}{{ output }}{{ raw }}{% endcapture %}
+
+        {% endfor %}
+      {% endcapture %}{{ output }}
+                
     </div>
     {% if page.nav-display %}
     <div role="main" class="container">
