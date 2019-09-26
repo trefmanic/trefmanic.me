@@ -1,14 +1,14 @@
 ---
 published: true
 layout: post
-title: Начало работы с Jekyll в Ubuntu 14.04 LTS
+title: Начало работы с Jekyll в Ubuntu 18.04 LTS
 date: 2016-10-04 11:53:18 +0500
 categories: [blog] 
 tags: [jekyll,ubuntu,web]
 description: Инструкция (HOWTO) по установке Jekyll в Ubuntu
 ---
 
-В этой заметке я расскажу, как установить [Jekyll][2] в Ubuntu 14.04 LTS и быстро приступить
+В этой заметке я расскажу, как установить [Jekyll][2] в Ubuntu 18.04 LTS и быстро приступить
 к созданию своего сайта.
 
 ### Подготовка платформы ###
@@ -21,21 +21,21 @@ description: Инструкция (HOWTO) по установке Jekyll в Ubun
 
 Для установки RVM в Ubuntu, нужны команды:
 
-    gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+    gpg2 --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
     curl -sSL https://get.rvm.io | bash -s stable
 
 После чего необходимо запустить внутри эмулятора терминала дополнительную оболочку командой
 
     bash --login
 
-Далее установим версию Ruby 2.3.1
+Далее установим версию Ruby 2.6.3
 
-    rvm install 2.3.1
-    rvm use 2.3.1
+    rvm install 2.6.3
+    rvm use 2.6.3
 
 Если у вас всё ешё не установлена система контроля версий git, рекомендую установить её, это потребуется для получения шаблона блога.
 
-    sudo apt-get install git
+    sudo apt install git
 
 ### Установка Jekyll ###
 

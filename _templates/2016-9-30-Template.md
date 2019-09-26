@@ -1,10 +1,9 @@
 ---
-published: true
+published: false
 layout: post
-title: 
-date: 1999-12-31 01:01:59 +0500
+title: page.title 
+date: 2019-26-09 12:14:00 +0500
 categories: [category1, category2] 
 tags: [tag1, tag2]
-description: 
+description:
 ---
-
