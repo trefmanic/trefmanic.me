@@ -19,19 +19,19 @@ theme: minimal-mistakes-jekyll
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  dribbble:
+  # dribbble:
   email: trefmanic@gmail.com
-  facebook:
-  flickr:
-  github: 
-  instagram:
-  linkedin:
-  pinterest:
+  # facebook:
+  # flickr:
+  github: trefmanic 
+  # instagram:
+  # linkedin:
+  # pinterest:
   rss: feed
-  twitter: 
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: +EvgenyRozhkov
+  # twitter: 
+  # stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  # youtube: # channel/<your_long_string> or user/<user-name>
+  # googleplus: +EvgenyRozhkov
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
