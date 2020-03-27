@@ -4,7 +4,7 @@ layout: post
 title: Получение доступа по SSH к Pocketbook 626+
 date: 2017-04-20 10:18:19 +0500
 categories: [pocketbook] 
-tags: [pocketbook, hack, Linux]
+tags: [pocketbook, hack, linux]
 description: Получение доступа к командной строке Pocketbook 626+ с использованием SSH
 ---
 

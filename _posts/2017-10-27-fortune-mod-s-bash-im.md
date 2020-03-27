@@ -4,7 +4,7 @@ layout: post
 title: Цитаты дня fortune-mod с bash.im
 date: 2017-10-27 16:57:28 +0500
 categories: [фан] 
-tags: [fortune-mod, Linux]
+tags: [fortune-mod, linux]
 description: Парсер и установщик фортунок на базе цитат с bash.im
 ---
 
