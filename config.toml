@@ -1,0 +1,43 @@
+baseURL = 'https://trefmanic.me'
+languageCode = 'ru-RU'
+title = 'Полезные заметки об IT'
+baseurl = "/"
+theme = "terminal-hacked"
+paginate = 5
+defaultContentLanguage = "ru"
+defaultContentLang = "fr"
+language = "ru"
+
+[params]
+  contentTypeName = "posts"
+  showMenuItems = 1
+  showLanguageSelector = false
+  fullWidthTheme = false
+  centerTheme = true
+  showLastUpdated = true
+  favicon = "favicon.ico"
+
+[languages]
+  [languages.ru]
+    languageName = "Русский"
+    title = "trefmanic.me"
+    subtitle = "Полезные заметки об IT"
+    owner = "trefmanic"
+    copyright = "ⓒ trefmanic"
+    readOtherPosts = "Другие записи"
+    newerPosts = "Новые записи"
+    olderPosts = "Старые записи"
+    missingContentMessage = "Страница не найдена..."
+    missingBackButtonLabel = "Домой"
+    updatedDatePrefix = "Обновлено"
+
+    [languages.ru.params.logo]
+      logoText = "trefmanic.me"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.ru.menu.main]]
+        identifier = "about"
+        name = "Про меня"
+        url = "/about"
+
