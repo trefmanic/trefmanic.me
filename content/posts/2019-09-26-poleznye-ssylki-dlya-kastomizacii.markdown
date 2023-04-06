@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Полезные ссылки для кастомизации
 date: 2019-09-26 12:14:00 +0500 
-categories: [фан] 
+lastmod: 2023-04-06
 tags: [linux,zsh,git,dotfiles]
 description: Коллекция полезных ссылок для настройки рабочего окружения
 ---
@@ -13,24 +13,24 @@ description: Коллекция полезных ссылок для настр�
 
 Просто список ссылок на полезные страницы и репы Github.
   
-  * [webpro/awesome-dotfiles] [1]
-  * [Awesome ZSH Plugins] [2]
-  * [ZSH config for productivity] [3]
-  * [Hack your ZSH] [4]
-  * [atomantic/dotfiles] [5]
-  * [adityarpillai/jumpstart] [6]
-  * [aeolyus/dotfiles] [7]
-  * [FZF] [8]
-  * [zplug/zplug] [9]
-  * [denysdovhan/spaceship-prompt] [10]
-  * [2kabhishek/Dotfiles] [11]
-  * [elenapan/dotfiles] [12]
-  * [Тред на r/unixporn с темой выше] [13]
+  * [webpro/awesome-dotfiles][1]
+  * [Awesome ZSH Plugins][2]
+  * [ZSH config for productivity][3]
+  * [Hack your ZSH][4]
+  * [atomantic/dotfiles][5]
+  * [adityarpillai/jumpstart][6]
+  * [aeolyus/dotfiles][7]
+  * [FZF][8]
+  * [zplug/zplug][9]
+  * [denysdovhan/spaceship-prompt][10]
+  * [2kabhishek/Dotfiles][11]
+  * [elenapan/dotfiles][12]
+  * [Тред на r/unixporn с темой выше][13]
   * [theamazingwaffle/dotfiles][15]
 
 ### Мои собственные dotfiles ###
 
-  * [trefmanic/dotfiles] [14]
+  * [trefmanic/dotfiles][14]
   
 [1]: https://github.com/webpro/awesome-dotfiles "Курируемый список dotfiles"
 [2]: https://project-awesome.org/unixorn/awesome-zsh-plugins "Плагины для ZSH"
