@@ -30,7 +30,7 @@ language = "ru"
     missingContentMessage = "Страница не найдена..."
     missingBackButtonLabel = "Домой"
     updatedDatePrefix = "Обновлено"
-
+    About = "Обо мне"
     [languages.ru.params.logo]
       logoText = "trefmanic.me"
       logoHomeLink = "/"
