@@ -3,6 +3,7 @@ published: true
 layout: post
 title: Начало работы с Jekyll в Ubuntu 18.04 LTS
 date: 2016-10-04 11:53:18 +0500
+updated: true
 lastMod: 2023-04-06
 tags: [jekyll,ubuntu,web]
 description: "В этой заметке я расскажу, как установить Jekyll в Ubuntu 18.04 LTS и быстро приступить
