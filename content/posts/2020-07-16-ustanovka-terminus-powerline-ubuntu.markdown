@@ -3,9 +3,10 @@ published: true
 layout: post
 title: Установка Terminus Powerline в Ubuntu
 date: 2020-07-16 20:30:41 +0500
+updated: true
 lastMod: 2023-04-06
-categories: [справочная] 
 tags: [ubuntu, terminus, powerline]
+keywords: [ubuntu, terminus, powerline]
 description: В статье описан процесс установки комплекта шрифтов Powerline и активации их в Ubuntu Linux и производных ОС.
 ---
 

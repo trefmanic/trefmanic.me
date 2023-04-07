@@ -4,8 +4,9 @@ layout: post
 title: Начало работы с Jekyll в Ubuntu 18.04 LTS
 date: 2016-10-04 11:53:18 +0500
 updated: true
-lastMod: 2023-04-06
+lastmod: 2023-04-06
 tags: [jekyll,ubuntu,web]
+keywords: [jekyll,ubuntu,web]
 description: "В этой заметке я расскажу, как установить Jekyll в Ubuntu 18.04 LTS и быстро приступить
 к созданию своего сайта."
 ---
@@ -66,4 +67,4 @@ description: "В этой заметке я расскажу, как устан�
 [3]: https://github.com/barryclark/jekyll-now "Пакет Jekyll-now"
 [4]: https://github.com/barryclark/jekyll-now/archive/master.zip "ZIP-архив Jekyll-now"
 [5]: https://gohugo.io/ "Фреймворк для генерации статических веб-сайтов"
-[6]: https://trefmanic.me/posts/hugo-ustanovka-i-nachalo-raboty/ "hugo: установка и начало работы"
+[6]: https://trefmanic.me/posts/2023-04-07-hugo-ustanovka-i-nachalo-raboty/ "hugo: установка и начало работы"

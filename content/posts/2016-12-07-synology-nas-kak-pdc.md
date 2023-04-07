@@ -3,8 +3,8 @@ published: false
 layout: post
 title: Настраиваем NAS Synology DS216 как первичный контроллер домена Windows
 date: 2016-12-07 09:11:00 +0500
-categories: [help] 
 tags: [synology, pdc, samba]
+keywords: [synology, pdc, samba]
 description: Настройка NAS Synology как первичного контроллера домена на примере DS 216
 ---
 

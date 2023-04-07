@@ -3,8 +3,9 @@ published: true
 layout: post
 title: Полезные ссылки для кастомизации
 date: 2019-09-26 12:14:00 +0500 
-lastmod: 2023-04-06
+updated: false
 tags: [linux,zsh,git,dotfiles]
+keywords: [linux,zsh,git,dotfiles]
 description: Коллекция полезных ссылок для настройки рабочего окружения
 ---
 Чтобы настроить своё рабочее окружение один раз и радоваться жизни.

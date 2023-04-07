@@ -5,6 +5,7 @@ title: Исправление Frontol xPOS в Ubuntu 12.04
 date: 2016-10-11 17:07:00 +0500
 updated: false
 tags: [atol,xpos,ubuntu]
+keywords: [atol,xpos,ubuntu]
 description: "В этой записи я расскажу о хаке, который можно использовать при проблеме с правами в Frontol xPOS на POS-системах, поставляемых «под ключ»."
 ---
 

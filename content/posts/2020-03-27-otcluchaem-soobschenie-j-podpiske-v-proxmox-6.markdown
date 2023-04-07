@@ -3,8 +3,10 @@ published: true
 layout: post
 title: Отключаем надоедливое сообщение о подписке в  Proxmox VE 6.2 и выше
 date: 2020-03-27 09:41:23 +0500
-categories: [справочная]
+updated: true
+keywords: [linux,proxmox]
 tags: [linux, proxmox]
+keywords: [linux, proxmox]
 description: Удаление назойливого сообщения о подписке в ProxmoxVE 6.2 и выше одной командой.
 ---
 
