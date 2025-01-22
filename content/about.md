@@ -22,13 +22,13 @@ description: Иформация об авторе блога
 
 Чтобы написать мне, используйте следующий ключ:
 
-    gpg2 --fetch-keys http://trefmanic.me/files/B7224863.pub.asc
+    gpg2 --fetch-keys https://trefmanic.me/files/B7224863.pub.asc
 
 [1]: https://gohugo.io/ "Официальный сайт hugo"
 [2]: https://github.com/trefmanic/hugo-theme-terminal-hacked "Тема terminal-hacked на гитхабе"
-[3]: http://trefmanic.me/files/mit.txt "Копия русского перевода лицензии MIT"
-[4]: http://sass-lang.com/ "Официальный сайт SASS"
-[5]: http://kippura.org/zenburnpage/ "Сайт, посвящённый zenburn"
-[6]: http://trefmanic.me/files/zenmin.gpa "Палитра zenburn для GPick"
+[3]: https://trefmanic.me/files/mit.txt "Копия русского перевода лицензии MIT"
+[4]: https://sass-lang.com/ "Официальный сайт SASS"
+[5]: https://kippura.org/zenburnpage/ "Сайт, посвящённый zenburn"
+[6]: https://trefmanic.me/files/zenmin.gpa "Палитра zenburn для GPick"
 [7]: https://www.sublimetext.com/ "Официальный сайт Sublime Text"
 [8]: https://t.me/trefmanic "Я в Telegram"
